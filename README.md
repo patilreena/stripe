@@ -1,8 +1,8 @@
-Mug Store
+# Mug Store
 
-This is a rails application using the stripe api gem for payment on a marketplace model 
+*** This is a rails application using the stripe api gem for payment on a marketplace model ***
 
-System Requirements
+ ## System Requirements
 
 Ruby version
 
@@ -12,7 +12,7 @@ Rails Version
 
 5.1.4
 
-System dependencies
+## System dependencies
 
 Gems installed
 
