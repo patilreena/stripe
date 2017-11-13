@@ -1,24 +1,32 @@
-# README
+Mug Store
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a rails application using the stripe api gem for payment on a marketplace model 
 
-Things you may want to cover:
+System Requirements
 
-* Ruby version
+Ruby version
 
-* System dependencies
+2.4.0
 
-* Configuration
+Rails Version
 
-* Database creation
+5.1.4
 
-* Database initialization
+System dependencies
 
-* How to run the test suite
+Gems installed
 
-* Services (job queues, cache servers, search engines, etc.)
+gem 'dotenv-rails', groups: [:development, :test]
+#for secret key upload
 
-* Deployment instructions
+gem 'stripe'
+#payment api
 
-* ...
+gem "shrine"
+#image upload
+
+gem 'devise'
+#user authentication
+Database creation
+
+Stripe guide for rails. [Click here](https://stripe.com/docs/checkout/rails)
