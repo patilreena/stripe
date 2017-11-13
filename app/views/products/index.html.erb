@@ -3,7 +3,7 @@
 </br>
 
     <div class="row no-gutters margin-row">
-      <% products.each do |product| %>
+      <% @products.each do |product| %>
         <div class="col-4 card" style="width: 20rem;">
          <%= image_tag(product.image_url, class: "card-img-top mx-auto")  %>
           <div class="card-body">
